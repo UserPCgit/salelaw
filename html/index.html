@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Law Onboarding</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div id="app" class="hidden">
+        <div class="backdrop"></div>
+        <main class="panel">
+            <header class="panel-header">
+                <div>
+                    <p class="eyebrow">Law Enforcement Network</p>
+                    <h1 id="title">Select Assignment</h1>
+                </div>
+                <button id="closeBtn" class="ghost">Close</button>
+            </header>
+            <p id="subtitle" class="subtitle">Choose your path. Some roles are marked as work in progress.</p>
+            <nav id="breadcrumbs" class="breadcrumbs"></nav>
+            <section id="cards" class="cards"></section>
+            <footer class="panel-footer">
+                <button id="backBtn" class="ghost hidden">Back</button>
+                <span id="footerHint">Use this selection to start your patrol setup.</span>
+            </footer>
+        </main>
+    </div>
+
+    <aside id="checklist" class="checklist hidden">
+        <p class="eyebrow">Patrol Setup</p>
+        <h2 id="checklistTitle">Assignment</h2>
+        <ol>
+            <li>Go to the Locker Room.</li>
+            <li>Pick your uniform / EUP preset.</li>
+            <li>Go to the Armory and collect duty gear.</li>
+            <li>Go to the Garage and spawn a patrol vehicle.</li>
+            <li>Press F11 and go on duty in FivePD.</li>
+            <li>Press Y to accept a callout.</li>
+        </ol>
+        <button id="hideChecklistBtn" class="small">Hide</button>
+    </aside>
+    <div id="toast" class="toast hidden"></div>
+    <script src="app.js"></script>
+</body>
+</html>
