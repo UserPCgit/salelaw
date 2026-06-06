@@ -1,0 +1,42 @@
+{
+  "ColoredShortName": "~r~Structure Fire",
+  "ShortName": "Structure Fire",
+  "CalloutDescription": "A fire alarm has gone off at the location! Respond code 3.",
+  "ResponseCode": 3,
+  "StartDistance": 120,
+  "Locations": [
+    {
+      "name": "Example Location",
+      "MaxFlames": 30,
+      "FireRadius": 5,
+      "coords": {
+        "x": 29.810857772827,
+        "y": -1344.740234375,
+        "z": 29.497022628784
+       },
+      "enableAlarm": true,
+      "alarmBoxCoords": {
+        "x": 24.743396759033,
+        "y": -1339.2941894531,
+        "z": 29.497024536133
+       },
+      "Alarm-Disclaimer": "This feature requires PlayCustomSounds, and you can place your alarm sound as firealarm.ogg inside PlayCustomSounds/html/sounds. https://github.com/LondonStudios/PlayCustomSounds"
+    },
+    {
+      "name": "Vinewood 24/7",
+      "MaxFlames": 30,
+      "FireRadius": 10,
+      "coords": {
+        "x": 377.71182250977,
+        "y": 327.42074584961,
+        "z": 103.56636047363
+      },
+      "enableAlarm": true,
+      "alarmBoxCoords": {
+        "x": 375.76739501953,
+        "y": 331.91369628906,
+        "z": 103.56636047363
+      }
+    }
+  ]
+}
